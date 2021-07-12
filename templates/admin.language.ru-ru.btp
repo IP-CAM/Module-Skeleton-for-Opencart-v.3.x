@@ -1,0 +1,20 @@
+<?php
+// Heading
+$_['heading_title']     = '%#ucName#%';
+
+// Text
+$_['text_extension']    = 'Расширения';
+$_['text_success']      = 'Настройки %#ucName#% успешно изменены!';
+$_['text_edit']         = 'Настройки модуля';
+
+// Entry
+$_['entry_%#lowerType#%_%#lowerName#%_status']      = 'Статус';
+$_['entry_%#lowerType#%_%#lowerName#%_sort_order']  = 'Порядок сортировки';
+%#fields_entry#%
+
+// Help
+%#fields_help#%
+
+// Error
+$_['error_permission']  = 'У Вас нет прав для управления данным модулем!';
+%#fields_error#%

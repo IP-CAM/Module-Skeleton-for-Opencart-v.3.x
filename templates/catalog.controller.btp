@@ -1,0 +1,7 @@
+<?php
+
+class ControllerExtension%#ucType#%%#camelName#% extends Controller {
+    public function index($setting)
+    {
+    }
+}

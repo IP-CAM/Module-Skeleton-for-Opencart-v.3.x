@@ -1,0 +1,22 @@
+<?php
+
+class ModelExtension%#ucType#%%#camelName#% extends Model
+{
+    /**
+     * Automatic checking installation to creating tables and data sample, configuration of modules.
+     */
+    public function install()
+    {
+
+    }
+
+    /**
+     * Automatic checking installation to remove tables and data sample, configuration of modules.
+     */
+    public function uninstall()
+    {
+
+    }
+
+    %#fields_init#%
+}

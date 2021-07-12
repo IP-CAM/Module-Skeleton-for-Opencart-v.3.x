@@ -1,0 +1,20 @@
+<?php
+// Heading
+$_['heading_title']     = '%#ucName#%';
+
+// Text
+$_['text_extension']    = 'Extensions';
+$_['text_success']      = 'Success: You have modified %#ucName#%!';
+$_['text_edit']         = 'Edit %#ucName#% Module';
+
+// Entry
+$_['entry_%#lowerType#%_%#lowerName#%_status']      = 'Status';
+$_['entry_%#lowerType#%_%#lowerName#%_sort_order'] = 'Sort Order';
+%#fields_entry#%
+
+// Help
+%#fields_help#%
+
+// Error
+$_['error_permission']  = 'Warning: You do not have permission to modify %#ucName#% module!';
+%#fields_error#%

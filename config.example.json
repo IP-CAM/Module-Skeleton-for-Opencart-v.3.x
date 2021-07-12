@@ -1,0 +1,87 @@
+{
+  "type": "payment",
+  "name": "mymodule",
+  "label": "My module",
+  "author": "Stanislav Kuznetsov",
+  "link": "https://t.me/stasionok",
+  "fields": [
+    {
+      "type": "number",
+      "name": "columns",
+      "label": "Number of columns",
+      "hint": "That should help you",
+      "defaultValue": "4",
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 6
+      }
+    },
+    {
+      "type": "select",
+      "name": "test1",
+      "label": "Test1",
+      "hint": "That should help you 2",
+      "required": true,
+      "values": {
+        "": "Please select",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    {
+      "type": "string",
+      "name": "title",
+      "label": "Block Title",
+      "validation": {
+        "lengthMin": 3,
+        "lengthMax": 32
+      }
+    },
+    {
+      "type": "hidden",
+      "name": "test_id"
+    },
+    {
+      "type": "radio",
+      "name": "radit",
+      "label": "Radio block",
+      "hint": "That should help you 4",
+      "defaultValue": "3",
+      "values": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    {
+      "type": "checkbox",
+      "name": "checkme",
+      "label": "Checkki",
+      "hint": "That should help you 5",
+      "defaultValue": "1"
+    },
+    {
+      "type": "checkboxlist",
+      "name": "listik",
+      "label": "Listik list",
+      "hint": "That should help you 6",
+      "defaultValue": [
+        "4",
+        "5"
+      ],
+      "values": {
+        "1": "First",
+        "2": "Second",
+        "3": "Third",
+        "4": "Forth",
+        "5": "Fifth"
+      }
+    }
+  ]
+}
